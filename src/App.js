@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
+import "typeface-roboto";
 import "./styles.css";
 
 class App extends Component {
