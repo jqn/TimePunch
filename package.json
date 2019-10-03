@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack-dev-server --hot --open",
     "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack.dev.config.js",
-    "build": "webpack --mode production"
+    "build": "webpack --config webpack.config.js --mode production"
   },
   "keywords": [],
   "author": "",
