@@ -10,10 +10,10 @@ import { hot } from "react-hot-loader";
 const theme = createMuiTheme({
   palette: {
     secondary: {
-      main: blue[900],
+      main: "#E64524",
     },
     primary: {
-      main: indigo[700],
+      main: "#ffeb3b",
     },
   },
   typography: {

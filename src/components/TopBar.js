@@ -22,7 +22,7 @@ const styles = theme => ({
     position: "relative",
     boxShadow: "none",
     borderBottom: `1px solid ${theme.palette.grey["100"]}`,
-    backgroundColor: "white",
+    // backgroundColor: "white",
   },
   inline: {
     display: "inline",
@@ -121,7 +121,7 @@ class Topbar extends Component {
     const { classes } = this.props;
 
     return (
-      <AppBar position="absolute" color="default" className={classes.appBar}>
+      <AppBar position="absolute" color="secondary" className={classes.appBar}>
         <Toolbar>
           <Grid container spacing={2} alignItems="baseline">
             <Grid item xs={12} className={classes.flex}>
