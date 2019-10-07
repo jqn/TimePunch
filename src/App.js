@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { ThemeProvider } from "@material-ui/styles";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { blue, indigo } from "@material-ui/core/colors";
+import Routes from "./routes";
 import "typeface-roboto";
 import "./styles.css";
 import { hot } from "react-hot-loader";
@@ -26,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <ThemeProvider theme={theme}>
-          <h1> Hello, World! </h1>
+          <Routes />
         </ThemeProvider>
       </div>
     );
